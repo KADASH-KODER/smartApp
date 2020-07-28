@@ -1,0 +1,442 @@
+<!--
+
+PROJET : SMART APP
+START : MAY 10 2020
+
+
+
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+    <head> 
+    <script>
+     console.log = function(){};    
+     console.log = function(){};
+     console.log = function(){};       
+    </script>
+      <link href='https://css.gg/chevron-double-left-r.css' rel='stylesheet'>
+              <script src="https://code.responsivevoice.org/responsivevoice.js"></script>  
+    <link href='https://css.gg/arrow-long-down-c.css' rel='stylesheet'>
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js"></script>
+         <script src="https://code.responsivevoice.org/responsivevoice.js?key=IVXGROmW"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>  
+
+<link href="style.css" rel="stylesheet">
+      <script src="main.js" >
+        <title>smart app</title>
+    </head>
+    <body>
+    <section id="sec1">
+    <div class="part1">
+    <div id="part1h">
+        <h1>HOME <br /> <span>smart app</span> </h1>
+    </div>
+    <div onclick="bot()" id="img">
+    <img src="https://images.all-free-download.com/images/graphicthumb/set_of_stylish_cartoon_girl_design_vector_graphic_526388.jpg " height="50px" width="50px" style="border-radius:50%; border:3px solid #fff;">
+    </div>  
+      
+      
+    </div>
+    
+    <div class="part2">
+     <div class="container">
+      <div onclick="channelShow()">
+        <i class="fa fa-desktop" id="chat" aria-hidden="true" ></i>
+ 
+      <h2>Smart tv</h2>
+ 
+      </div> 
+      
+       
+      <div onclick="temperature()"> 
+         <i class="fa fa-thermometer-half" id="chat" aria-hidden="true" ></i>
+ 
+      <h2>temperature</h2>
+</div> 
+      
+      
+      
+     </div>
+      
+       
+         <div class="container">
+      <div onclick="battery()">      <i class="fa fa-battery" id="chat" aria-hidden="true" ></i>
+ 
+      <h2>Battery</h2>
+  </div> 
+  
+   
+      <div onclick ="coming()">    <i class="fa fa-plus" id="chat" aria-hidden="true" ></i>
+ 
+      <h2>Add more.</h2>
+ </div> 
+     </div>   
+   
+        
+        
+    </div>
+    
+     <div class="part3">
+     <div id="part3h" onclick="temperature()">
+    <h1>Temperature <br /><span>what is your temperature</span> </h1>  
+    </div>
+    
+    <div id="part3h1" onclick="temperature()">
+    <h1 id="temnum">36°c</h1>   
+     </div> 
+         
+     </div>
+     <div class="part3b" onclick="temperature()">
+         <div id="part3-pro">
+      <div id="part3-progress">
+          
+      <span id="p3s">  </span>
+   </div>   
+         </div>
+     </div>
+    
+    
+    <div class="part4">
+        <div class="container1">
+      <div>
+          
+      <i class="fa fa-battery" id="chat" aria-hidden="true" onclick="battery()" ></i>
+     </div>
+       
+      <div>          
+      <i class="fa fa-user" id="chat" aria-hidden="true" onclick="user()" ></i>
+ </div> 
+ 
+      <div onclick="setting()">          
+      <i class="fa fa-gear" id="chat" aria-hidden="true" ></i>
+  </div>  
+  
+      <div onclick="notice()">          
+      <i class="fa fa-bell" id="chat" aria-hidden="true" ></i>
+ </div>
+  
+
+      
+     </div> 
+       
+     
+        
+    </div>
+  </section>  
+    
+    <section id="sec2">
+    <div class="part5">
+    <div id="part5h">
+    <h1>Temperature <br /><span>what is your temperature</span> </h1>  
+    <div class="part5-container">
+        
+          <div class="part5b" >
+         <div id="part5-pro" >
+      <div id="part5-progress" >
+          
+   </div>   
+         </div>
+     </div>
+     
+     
+   
+       <div id="part5c">
+       
+              <div class="container2">
+             <div onclick = "botpen()" id="part5h1">
+    <h1 id="p5p">36°c</h1>   
+     </div> 
+     
+              
+              
+      <div>
+          
+      <i class="fa fa-toggle-off" id="poweron" aria-hidden="true" onclick="powerup()" ></i>
+     </div>
+       
+      <div onclick ="coming()">          
+      <i class="fa fa-clock-o" id="chat" aria-hidden="true" ></i>
+ </div> 
+ 
+  
+      <div onclick ="coming()">          
+      <i class="fa fa-question" id="chat" aria-hidden="true" ></i>
+ </div>
+   
+       </div> 
+        
+        
+        
+        
+    </div>
+
+        
+        
+        
+        
+        
+    </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="part4">
+        <div class="container1">
+      <div>                  
+      <i class="fa fa-battery" id="chat" aria-hidden="true" onclick="battery()" ></i>
+     </div>
+       
+      <div>          
+      <i class="fa fa-user" id="chat" aria-hidden="true" onclick="user()"></i>
+ </div> 
+ 
+      <div onclick="setting()">          
+      <i class="fa fa-gear" id="chat" aria-hidden="true" ></i>
+  </div>  
+  
+      <div onclick="notice()">          
+      <i class="fa fa-bell" id="chat" aria-hidden="true" ></i>
+ </div>
+  
+    
+        
+        
+    </section>
+    
+        <section id="sec3">
+    <div class="part6">
+    <div id="part6h">
+    <h1>Battery Percentage <br /><span>what is your battery percentage</span> </h1>  
+    <div class="part6-container">
+        
+          <div class="part6b" >
+         <div onclick="botbatt()" id="part6-pro" >
+      <div id="part6-progress" >
+         
+   </div>   
+         </div>
+     </div>
+     
+     
+   
+       <div id="part6c">
+       
+              <div class="container2">
+             <div onclick="botbatt()" id="part5h1">
+    <h1 id="batp"></h1>   
+     </div> 
+     
+              
+              
+      <div>
+          
+      <i class="fa fa-toggle-off" id="poweron" aria-hidden="true" onclick="powerup()" ></i>
+     </div>
+       
+      <div onclick="coming()">          
+      <i class="fa fa-clock-o" id="chat" aria-hidden="true" ></i>
+ </div> 
+ 
+  
+      <div onclick="coming()">          
+      <i class="fa fa-question" id="chat" aria-hidden="true" ></i>
+ </div>
+   
+       </div> 
+        
+        
+        
+        
+    </div>
+
+        
+        
+        
+        
+        
+    </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="part4">
+        <div class="container1">
+      <div>                  
+      <i class="fa fa-battery" id="chat" aria-hidden="true" onclick="battery()" ></i>
+     </div>
+      
+      <div>          
+      <i class="fa fa-user" id="chat" aria-hidden="true" onclick="user()"></i>
+ </div> 
+ 
+      <div onclick="setting()">          
+      <i class="fa fa-gear" id="chat" aria-hidden="true" ></i>
+  </div>  
+  
+      <div onclick="notice()">          
+      <i class="fa fa-bell" id="chat" aria-hidden="true" ></i>
+ </div>
+  
+    
+        
+        
+    </section>
+    
+    <section id="sec4">
+      <div class="part7">
+      <h1 id="part7h1">Settings</h1>    
+      <div id="part7-container">
+        <div><h1 class="p7t">Help</h1></div> 
+         <br />
+        <div onclick ="coming()"><h1 class="p7t">Change name</h1></div> 
+        <br />
+        <div onclick="abutus()"><h1 class="p7t">about</h1> </div> 
+         <br />
+        <div onclick="user()"><h1 class="p7t">Exit</h1> </div> 
+
+      </div>    
+          
+      </div>  
+        
+        
+    </section>
+
+   <section id="sec5">
+     <div class="part8">
+      <h1 id="part8h1">Notifications</h1>
+       <div class="part8-container">
+       
+         <div>
+         <h1>Channels</h1>  
+         <p id="printchan">You are currently offline! </p>
+       </div> 
+       <br />
+
+       <div onclick = "botbatt()">
+         <h1>Battery level</h1>  
+         <p id="printbat"> </p>
+         <p id="notebatt"></p>
+       </div> 
+       <br />
+       <div onclick = "botpen()">
+        <h1>temperation</h1>   
+           <p id="printtem"> </p> 
+           <p id="notetem"></p>
+       </div>   
+           
+       </div>  
+         
+     </div>  
+       
+       <div onclick="user()" id="blackbtn">
+                <i class="fa fa-times" id="chat" aria-hidden="true" ></i>
+
+       </div>
+       
+   </section>
+
+    <section id="sec6">
+    <h1 id="channel-word">Channels</h1>
+     <div class="part9">
+     <div id="screen">
+     <div id="screen-div">
+    <div> <h1><span id="channel-title">Name : Bella ciao</span></h1>     </div>
+    <div onclick="addnm()"> <h1>ADD NEW MOVIE <span><i class="fa fa-plus" aria-hidden="true" onclick="addnm()"></i> </span> </h1>   </div>
+     </div>
+          <video id="vids" controls autoplay loop>
+           <source id="srclink" src="https://dl.dropbox.com/s/zposi01qa182n4p/Bella_Ciao_by_Delia__Tribute_to_La_Casa_de_Papel%28480p%29.mp4?dl=1" type="video/mp4">
+   <source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg">
+   Video is not supported by your browser
+</video>
+     </div>
+    
+    
+            
+        <div class="part4">
+        <div class="container1">
+      <div>                  
+      <i class="fa fa-battery" id="chat" aria-hidden="true" onclick="battery()" ></i>
+     </div>
+      
+      <div>          
+      <i class="fa fa-user" id="chat" aria-hidden="true" onclick="user()"></i>
+ </div> 
+ 
+      <div onclick="setting()">          
+      <i class="fa fa-gear" id="chat" aria-hidden="true" ></i>
+  </div>  
+  
+      <div onclick="notice()">          
+      <i class="fa fa-bell" id="chat" aria-hidden="true" ></i>
+ </div>
+  
+
+    
+    
+         
+     </div>   
+        
+    </section>
+
+<section id="sec7">
+<div id="aboxes">
+  <div class="alertbox">
+  <input id="mn" class="mnb" type="text" placeholder="movie name" required/>
+      <input id="ml" class="mnb" type="text" placeholder="movie link/src" required/>   
+       
+       
+       
+        <div onclick="addm()" id="okbtn">
+                <i class="fa fa-plus" id="chat" aria-hidden="true" ></i>
+
+       </div>
+  
+  </div> 
+  
+  </div> 
+</section >
+<section id="sec8">
+    <div onclick = "closeabout()" class="abutbox">
+      <h1>About Us</h1>  
+      <hr id="abouthr">
+      <p>
+       Well what can I say about us? We are really stupid!!! We love CODING!!! Wanna upgrade!!! Wanna change!!! Wanna explode!!! One day, wanna meet the unknown!!! Can you help us?
+       </p>
+<p>
+Love you all!!! But LOVE the haters even more!!!Please hate us!!! Criticize us!!! Let us know our faults and deficiencies so that we can update and improve!!! Let us know in the comments!!!   
+      </p>
+      <h3>we are t.i.k</h3>
+    </div>
+</section>
+<section id="sec9">
+  <div onclick="comingsoon()" class = "coming">
+   <h1>Feature</h1> 
+   <p>Coming soon in next update</p>  
+  </div>
+</section>
+ <script>
+ </script>   
+        
+    </body>
+</html>
